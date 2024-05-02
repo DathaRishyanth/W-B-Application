@@ -1,30 +1,87 @@
-.navbar{
-    display: flex;
-    justify-content: center;
-}
-.container-fluid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-image: url('Screenshot\ 2024-04-28\ 101002.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0;
+    font-family: Arial, sans-serif; 
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
 
 .chart-container {
-    margin: 20px;
-    position: relative;
+    margin: 20px auto;
     border-radius: 20px;
-    background-color: lightpink;
-    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 h1 {
     color: cornflowerblue;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .buttons-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
+.btn {
+    margin: 0 10px;
+}
+
+.wrapper-zfeOWGLK {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.content-zfeOWGLK {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-zfeOWGLK {
+    flex: 1 1 300px; 
+    margin: 10px;
+    text-align: center;
+}
+
+.block-zfeOWGLK {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+
+.bannerTitle-Jc0VN159 {
+    font-size: 24px;
+}
+
+.bannerDescription-Jc0VN159 {
+    font-size: 16px;
+}
