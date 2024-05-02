@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chart-container {
+    margin: 20px;
+    position: relative;
+    border-radius: 20px;
+    background-color: lightpink;
+    z-index: 2;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
